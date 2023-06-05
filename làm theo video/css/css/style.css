@@ -1,0 +1,164 @@
+html {
+  width: 1200px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+h1 {
+  color: blue;
+  font-size: 26px;
+
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  text-align: left;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 30px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+body {
+  position: relative;
+}
+p {
+  font-size: 20px;
+
+  line-height: 1.5;
+}
+li {
+  font-size: 20px;
+}
+/* footer p {
+  font-size: 16px;
+} */
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-header {
+  border: 80% solid red;
+  background-color: rgba(185, 185, 174, 0.274);
+  /* text-align: ceter; */
+}
+header p {
+  font-style: italic;
+}
+/* article header p {
+  font-style: italic;
+} */
+#authour {
+  font-style: italic;
+  font-size: 18px;
+  margin-left: 30px;
+}
+.athour-related {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ul {
+  list-style: none;
+} */
+.list {
+  list-style: none;
+}
+head {
+  background-color: #b4a8a86e;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 20px 40px;
+  border: 50px 0;
+  box-sizing: border-box;
+  width: 500px;
+}
+a:link {
+  color: #1098ad;
+}
+
+a:visited {
+  color: red;
+}
+a:hover {
+  color: yellow;
+}
+a:active {
+  color: violet;
+}
+/* .post-img {
+
+} */
+bottom {
+  font-size: 32px;
+  cursor: pointer;
+  padding: 20px;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  bottom: 50px;
+  right: 50px;
+  /* border: 2px solid red; */
+  background-color: rgba(49, 49, 49, 0.5);
+}
+/* .author-img {
+  float: left;
+  margin-bottom: 10px;
+}
+#authour {
+  /* padding-left: 80px; */
+/* padding-top: 10px;
+
+  float: left;
+  margin-top: 10px;
+}
+h1 {
+  float: left;
+  padding: 20px 40px;
+}
+nav {
+  float: right;
+  padding: 40px;
+} */
+/* .clear {
+  clear: both;
+} */
+/* .clear-float::after {
+  clear: both;
+  content: "";
+  display: block;
+  text-align: center;
+}
+article {
+  background-color: green;
+  width: 900px;
+  float: left;
+}
+aside {
+  width: 300px;
+  float: right;
+  right: 0;
+  box-sizing: border-box;
+} */

@@ -1,0 +1,45 @@
+/*.a {
+  width : 60%;
+  height : 80%
+  display : block;
+  padding : 3px;
+  margin : 10px;
+  float : letf;
+}*/
+.a {
+  width: 60%;
+  height: 80%;
+  display: block;
+  background: rgba(113, 180, 37, 0.5);
+  padding: 3px;
+  margin: 10px;
+  border: 2px solid red;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  position: relative;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+}
+li:before {
+  content: "";
+  background-color: #c00;
+  position: absolute;
+  /* bottom: 0px;
+  top: 0px;
+  left: 6px;
+  width: 3px; */
+}
+
+li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 12px;
+  width: 12px;
+}
